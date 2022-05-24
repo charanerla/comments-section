@@ -1,0 +1,132 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.comment-item {
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  list-style-type: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid #94a3b8;
+}
+.user-details-comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.first-letter {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 0px;
+}
+.userName-posted-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Roboto';
+}
+.description-container {
+  padding-left: 10px;
+}
+.commenter-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.posted-time {
+  color: #94a3b8;
+  margin-left: 25px;
+  align-self: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.comment {
+  color: #7e858e;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.like-delete-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.like-color {
+  color: #0ea5e9;
+}
+.unlike-color {
+  color: #7e858e;
+}
+.like-label {
+  margin-left: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #0ea5e9;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.unlike-label {
+  color: #7e858e;
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

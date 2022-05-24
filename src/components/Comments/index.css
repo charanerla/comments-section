@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+.responsive-container {
+  width: 100%;
+}
+.form-image-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.comments-inputs-container {
+  order: 3;
+}
+.comments-heading {
+  color: #1e293b;
+  font-weight: bold;
+}
+.description {
+  color: #475569;
+  font-weight: 500;
+}
+.text-input {
+  width: 100%;
+  color: #334155;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 4px 9px 4px 9px;
+  border: 2px solid #cbd2d9;
+  outline: none;
+}
+.textarea-element {
+  margin-top: 20px;
+  width: 100%;
+  color: #334155;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 4px 9px 4px 9px;
+  border: 2px solid #cbd2d9;
+  outline: none;
+}
+.submit-button {
+  background-color: #0284c7;
+  border-radius: 4px;
+  outline: none;
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+  border: none;
+}
+
+.image-container {
+  order: 2;
+  width: 80vw;
+  align-self: center;
+}
+.image {
+  width: 70%;
+}
+#commentsCount {
+  background-color: #0284c7;
+  padding: 2px 8px 2px 8px;
+  margin-right: 10px;
+  color: #ffffff;
+  border-radius: 2px;
+}
+label {
+  color: #334155;
+}
+.comment-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.two {
+  display: none;
+}
+.one {
+  order: 1;
+}
+.comments-container {
+  padding-left: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .main-container {
+    padding: 0px;
+  }
+  .responsive-container {
+    width: 85vw;
+  }
+  .form-image-container {
+    flex-direction: row;
+  }
+  .comments-inputs-container {
+    order: 1;
+    width: 50%;
+  }
+
+  .image-container {
+    order: 2;
+    width: 50%;
+    align-self: flex-end;
+    text-align: right;
+  }
+  .image {
+    width: 70%;
+  }
+  .form-element {
+    width: 70%;
+  }
+  .one {
+    display: none;
+  }
+  .two {
+    display: block;
+  }
+}
